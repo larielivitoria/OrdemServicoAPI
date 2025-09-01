@@ -1,0 +1,11 @@
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Domain\bin\Debug\net9.0\OrdemServico.Domain.deps.json
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Domain\bin\Debug\net9.0\OrdemServico.Domain.dll
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Domain\bin\Debug\net9.0\OrdemServico.Domain.pdb
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Domain\obj\Debug\net9.0\OrdemServico.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Domain\obj\Debug\net9.0\OrdemServico.Domain.AssemblyInfoInputs.cache
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Domain\obj\Debug\net9.0\OrdemServico.Domain.AssemblyInfo.cs
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Domain\obj\Debug\net9.0\OrdemServico.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Domain\obj\Debug\net9.0\OrdemServico.Domain.dll
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Domain\obj\Debug\net9.0\refint\OrdemServico.Domain.dll
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Domain\obj\Debug\net9.0\OrdemServico.Domain.pdb
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Domain\obj\Debug\net9.0\ref\OrdemServico.Domain.dll

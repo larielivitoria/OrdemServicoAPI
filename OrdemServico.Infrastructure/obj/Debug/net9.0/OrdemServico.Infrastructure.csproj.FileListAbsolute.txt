@@ -1,0 +1,17 @@
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\bin\Debug\net9.0\OrdemServico.Infrastructure.deps.json
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\bin\Debug\net9.0\OrdemServico.Infrastructure.runtimeconfig.json
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\bin\Debug\net9.0\OrdemServico.Infrastructure.dll
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\bin\Debug\net9.0\OrdemServico.Infrastructure.pdb
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\bin\Debug\net9.0\OrdemServico.Domain.dll
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\bin\Debug\net9.0\OrdemServico.Domain.pdb
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\OrdemServico.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\OrdemServico.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\OrdemServico.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\OrdemServico.Infrastructure.AssemblyInfo.cs
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\OrdemServico.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\OrdemSer.179F99CD.Up2Date
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\OrdemServico.Infrastructure.dll
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\refint\OrdemServico.Infrastructure.dll
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\OrdemServico.Infrastructure.pdb
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\OrdemServico.Infrastructure.genruntimeconfig.cache
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\ref\OrdemServico.Infrastructure.dll

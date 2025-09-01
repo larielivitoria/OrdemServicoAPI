@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Z2bssFfYKcyp/OlNQWX1naPQVIoDjM58QSy+WPWLIuo=",
+  "Source": "OrdemServico.API",
+  "BasePath": "_content/OrdemServico.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
