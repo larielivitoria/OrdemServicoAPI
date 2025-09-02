@@ -172,3 +172,4 @@ C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.API\obj\Debug\
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.API\obj\Debug\net9.0\OrdemServico.API.pdb
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.API\obj\Debug\net9.0\OrdemServico.API.genruntimeconfig.cache
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.API\obj\Debug\net9.0\ref\OrdemServico.API.dll
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.API\obj\Debug\net9.0\OrdemServico.API.sourcelink.json

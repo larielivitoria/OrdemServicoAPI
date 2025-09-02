@@ -15,3 +15,4 @@ C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\ob
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\obj\Debug\net9.0\refint\OrdemServico.Application.dll
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\obj\Debug\net9.0\OrdemServico.Application.pdb
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\obj\Debug\net9.0\ref\OrdemServico.Application.dll
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\obj\Debug\net9.0\OrdemServico.Application.sourcelink.json

@@ -32,7 +32,7 @@ namespace OrdemServico.API.Controllers
         public IActionResult CriarServico([FromBody] CriarServicoDTO criarServicoDTO)
         {
             var servico = _servicoService.CriarServico(criarServicoDTO);
-            return CreatedAtAction(nameof(ListarTodos), new {id = servico.Id}, servico);
+            return CreatedAtAction(nameof(ListarTodos), new { id = servico.Id }, servico);
         }
 
         [HttpDelete("{id}")]
@@ -40,6 +40,29 @@ namespace OrdemServico.API.Controllers
         {
             _servicoService.Apagar(id);
             return NoContent();
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Atualizar(int id, [FromBody] AtualizarServicoDTO atualizarServicoDTO)
+        {
+            var seExiste = _servicoService.BuscaPorId(id);
+            if (seExiste == null )
+            {
+                return NotFound();
+            }
+            var existente = _servicoService.Atualizar(id, atualizarServicoDTO);
+            return Ok(existente);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult BuscaPorId(int id)
+        {
+            var busca = _servicoService.BuscaPorId(id);
+            if (busca == null)
+            {
+                return NotFound();
+            }
+            return Ok(busca);
         }
     }
 }

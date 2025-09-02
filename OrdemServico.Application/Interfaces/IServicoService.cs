@@ -12,5 +12,7 @@ namespace OrdemServico.Application.Interfaces
         Servico CriarServico(CriarServicoDTO criarServicoDTO);
         List<Servico> ListarTodos();
         void Apagar(int id);
+        Servico BuscaPorId(int id);
+        Servico Atualizar(int id, AtualizarServicoDTO atualizarServicoDTO);
     }
 }

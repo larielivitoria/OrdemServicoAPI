@@ -28,6 +28,19 @@ namespace OrdemServico.Application.Services
             
         }
 
+        public Servico Atualizar(int id, AtualizarServicoDTO atualizarServicoDTO)
+        {
+            var servicoExistente = _contexto.Servicos.Find(id);
+            servicoExistente.QuantidadeCuboFreio = atualizarServicoDTO.QuantidadeCuboAtualizada;
+            _contexto.SaveChanges();
+            return servicoExistente;
+        }
+
+        public Servico BuscaPorId(int id)
+        {
+            return _contexto.Servicos.Where(c => c.Id == id).FirstOrDefault();   
+        }
+
         public Servico CriarServico(CriarServicoDTO criarServicoDTO)
         {
             var servico = new Servico(criarServicoDTO.Placa, criarServicoDTO.QuantidadeCuboFreio);

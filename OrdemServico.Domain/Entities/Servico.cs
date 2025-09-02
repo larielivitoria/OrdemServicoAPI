@@ -45,7 +45,7 @@ namespace OrdemServico.Domain.Entities
         public string PlacaCaminhao { get; private set; }
 
         [Required]
-        public int QuantidadeCuboFreio { get; private set; }
+        public int QuantidadeCuboFreio { get; set; }
 
         [Required]
         public decimal ValorTotal { get; private set; }
