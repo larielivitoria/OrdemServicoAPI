@@ -1,4 +1,12 @@
-# Sistema Registro de Serviços
+# Boas práticas aplicadas
+
+**Clean Architecture:** separação em camadas (Domain, Application, Infrastructure, API)
+
+**Repository Pattern:** desacoplamento do acesso a dados
+
+**Injeção de dependência:** Services e Repositories registrados no DI
+
+**DTOs:** para separar dados de entrada da API das entidades
 
 Na aplicação real que inspirou essa API, não haveria necessidade de endpoints de atualização ou busca por ID. 
 No entanto, para fins de portfólio, implementei o CRUD completo, a fim de demonstrar domínio das boas práticas no desenvolvimento de APIs REST
@@ -16,6 +24,7 @@ O Sistema de Registro de Serviços é uma API RESTful desenvolvida em C# com Ent
 
 ## O sistema segue boas práticas de arquitetura, com camadas bem definidas: 
 
-### Controller → Interface → Service → DbContext → Banco de Dados
+### Controller → Service → Repository → DbContext → Banco de Dados
 
 Garantindo baixo acoplamento e facilidade de manutenção.
+
