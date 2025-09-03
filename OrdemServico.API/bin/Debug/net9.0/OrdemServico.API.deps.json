@@ -13,6 +13,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8",
           "OrdemServico.Application": "1.0.0",
           "OrdemServico.Domain": "1.0.0",
+          "OrdemServico.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "9.0.4"
         },
         "runtime": {
@@ -1066,8 +1067,7 @@
       },
       "OrdemServico.Application/1.0.0": {
         "dependencies": {
-          "OrdemServico.Domain": "1.0.0",
-          "OrdemServico.Infrastructure": "1.0.0"
+          "OrdemServico.Domain": "1.0.0"
         },
         "runtime": {
           "OrdemServico.Application.dll": {
@@ -1087,6 +1087,7 @@
       "OrdemServico.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8",
+          "OrdemServico.Application": "1.0.0",
           "OrdemServico.Domain": "1.0.0"
         },
         "runtime": {

@@ -2,13 +2,15 @@ using OrdemServico.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using OrdemServico.Application.Services;
 using OrdemServico.Application.Interfaces;
+using OrdemServico.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddScoped<IServicoService, ServicoService>();
-
 builder.Services.AddDbContext<OrdemServicoDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao")));
+
+builder.Services.AddScoped<IServicoService, ServicoService>();
+builder.Services.AddScoped<IServicoRepository, ServicoRepository>();
 
 builder.Services.AddControllers();
 

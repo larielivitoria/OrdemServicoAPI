@@ -37,6 +37,9 @@
               },
               "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Domain\\OrdemServico.Domain.csproj": {
                 "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Domain\\OrdemServico.Domain.csproj"
+              },
+              "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Infrastructure\\OrdemServico.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Infrastructure\\OrdemServico.Infrastructure.csproj"
               }
             }
           }
@@ -129,9 +132,6 @@
             "projectReferences": {
               "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Domain\\OrdemServico.Domain.csproj": {
                 "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Domain\\OrdemServico.Domain.csproj"
-              },
-              "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Infrastructure\\OrdemServico.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Infrastructure\\OrdemServico.Infrastructure.csproj"
               }
             }
           }
@@ -264,6 +264,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Application\\OrdemServico.Application.csproj": {
+                "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Application\\OrdemServico.Application.csproj"
+              },
               "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Domain\\OrdemServico.Domain.csproj": {
                 "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Domain\\OrdemServico.Domain.csproj"
               }

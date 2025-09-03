@@ -1706,8 +1706,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "OrdemServico.Domain": "1.0.0",
-          "OrdemServico.Infrastructure": "1.0.0"
+          "OrdemServico.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/OrdemServico.Application.dll": {}
@@ -1731,6 +1730,7 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8",
+          "OrdemServico.Application": "1.0.0",
           "OrdemServico.Domain": "1.0.0"
         },
         "compile": {
@@ -5197,6 +5197,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.8",
       "OrdemServico.Application >= 1.0.0",
       "OrdemServico.Domain >= 1.0.0",
+      "OrdemServico.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 9.0.4"
     ]
   },
@@ -5237,6 +5238,9 @@
             },
             "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Domain\\OrdemServico.Domain.csproj": {
               "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Domain\\OrdemServico.Domain.csproj"
+            },
+            "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Infrastructure\\OrdemServico.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\SAMSUNG ODSSEY\\Downloads\\C#\\OrdemServicoAPI\\OrdemServico.Infrastructure\\OrdemServico.Infrastructure.csproj"
             }
           }
         }

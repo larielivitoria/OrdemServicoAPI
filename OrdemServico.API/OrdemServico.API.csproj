@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\OrdemServico.Application\OrdemServico.Application.csproj" />
     <ProjectReference Include="..\OrdemServico.Domain\OrdemServico.Domain.csproj" />
+    <ProjectReference Include="..\OrdemServico.Infrastructure\OrdemServico.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
