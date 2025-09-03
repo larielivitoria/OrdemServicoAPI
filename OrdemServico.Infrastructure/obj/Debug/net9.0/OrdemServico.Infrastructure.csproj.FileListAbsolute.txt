@@ -16,3 +16,5 @@ C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\OrdemServico.Infrastructure.genruntimeconfig.cache
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\ref\OrdemServico.Infrastructure.dll
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\obj\Debug\net9.0\OrdemServico.Infrastructure.sourcelink.json
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\bin\Debug\net9.0\OrdemServico.Application.dll
+C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Infrastructure\bin\Debug\net9.0\OrdemServico.Application.pdb

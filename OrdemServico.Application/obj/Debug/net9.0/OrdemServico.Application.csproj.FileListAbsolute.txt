@@ -2,9 +2,7 @@ C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\bi
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\bin\Debug\net9.0\OrdemServico.Application.dll
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\bin\Debug\net9.0\OrdemServico.Application.pdb
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\bin\Debug\net9.0\OrdemServico.Domain.dll
-C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\bin\Debug\net9.0\OrdemServico.Infrastructure.dll
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\bin\Debug\net9.0\OrdemServico.Domain.pdb
-C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\bin\Debug\net9.0\OrdemServico.Infrastructure.pdb
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\obj\Debug\net9.0\OrdemServico.Application.csproj.AssemblyReference.cache
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\obj\Debug\net9.0\OrdemServico.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\SAMSUNG ODSSEY\Downloads\C#\OrdemServicoAPI\OrdemServico.Application\obj\Debug\net9.0\OrdemServico.Application.AssemblyInfoInputs.cache

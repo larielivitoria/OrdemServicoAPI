@@ -5,53 +5,63 @@ using System.Threading.Tasks;
 using OrdemServico.Application.DTOs;
 using OrdemServico.Application.Interfaces;
 using OrdemServico.Domain.Entities;
-using OrdemServico.Infrastructure.Data;
+
 
 namespace OrdemServico.Application.Services
 {
     public class ServicoService : IServicoService
     {
-        private readonly OrdemServicoDbContext _contexto;
-        public ServicoService(OrdemServicoDbContext contexto)
+        private readonly IServicoRepository _repository;
+        public ServicoService(IServicoRepository repository)
         {
-            _contexto = contexto;
+            _repository = repository;
         }
 
         public void Apagar(int id)
         {
-            var servico = _contexto.Servicos.Find(id);
-            if (servico != null)
+            var existe = _repository.BuscaPorId(id);
+            if (existe == null)
             {
-                _contexto.Servicos.Remove(servico);
-                _contexto.SaveChanges();
+                throw new Exception("Serviço não encontrado.");
             }
+            _repository.Remover(id);
+            _repository.Salvar();
             
         }
 
         public Servico Atualizar(int id, AtualizarServicoDTO atualizarServicoDTO)
         {
-            var servicoExistente = _contexto.Servicos.Find(id);
+            var servicoExistente = _repository.BuscaPorId(id);
+            if (servicoExistente == null)
+            {
+                throw new Exception("Serviço não encontrado.");
+            }
             servicoExistente.QuantidadeCuboFreio = atualizarServicoDTO.QuantidadeCuboAtualizada;
-            _contexto.SaveChanges();
+            _repository.Salvar();
             return servicoExistente;
         }
 
         public Servico BuscaPorId(int id)
         {
-            return _contexto.Servicos.Where(c => c.Id == id).FirstOrDefault();   
+            var existe = _repository.BuscaPorId(id);
+            if (existe == null)
+            {
+                throw new Exception("Serviço não encontrado.");
+            }
+            return existe;
         }
 
         public Servico CriarServico(CriarServicoDTO criarServicoDTO)
         {
             var servico = new Servico(criarServicoDTO.Placa, criarServicoDTO.QuantidadeCuboFreio);
-            _contexto.Servicos.Add(servico);
-            _contexto.SaveChanges();
+            _repository.Adicionar(servico);
+            _repository.Salvar();
             return servico;
         }
 
         public List<Servico> ListarTodos()
         {
-            return _contexto.Servicos.ToList();
+            return _repository.ListarTodos();
         }
     }
 }
