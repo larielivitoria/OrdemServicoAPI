@@ -10,7 +10,7 @@ O Sistema de Registro de Serviços é uma API RESTful desenvolvida em C# com Ent
 
  - Buscar um serviço específico por ID, facilitando consultas pontuais.
 
- - Atualizar serviços existentes, garantindo que as informações estejam sempre corretas.
+ - Atualizar Quantidade de Cubo de Freio, Um DTO específico chamado AtualizarServicoDTO, que isola a propriedade que queremos alterar.
 
  - Remover serviços quando necessário, mantendo o banco de dados limpo.
 
