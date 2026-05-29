@@ -1,12 +1,12 @@
-# Boas práticas aplicadas
+# Boas Práticas Aplicadas
 
-**Clean Architecture:** separação em camadas (Domain, Application, Infrastructure, API)
+**Arquitetura:** separação em camadas (Domain, Application, Infrastructure, API).
 
-**Repository Pattern:** desacoplamento do acesso a dados
+**Repository Pattern:** desacoplamento do acesso a dados.
 
-**Injeção de dependência:** Services e Repositories registrados no DI
+**Injeção de dependência:** Services e Repositories registrados de forma nativa para gerenciamento do ciclo de vida.
 
-**DTOs:** para separar dados de entrada da API das entidades
+**DTOs:** para separar dados de entrada da API das entidades.
 
 Na aplicação real que inspirou essa API, não haveria necessidade de endpoints de atualização ou busca por ID. 
 No entanto, para fins de portfólio, implementei o CRUD completo, a fim de demonstrar domínio das boas práticas no desenvolvimento de APIs REST
@@ -16,7 +16,7 @@ O Sistema de Registro de Serviços é uma API RESTful desenvolvida em C# com Ent
 
  - Listar todos os serviços cadastrados.
 
- - Buscar um serviço específico por ID, facilitando consultas pontuais.
+ - Buscar um serviço específico por ID.
 
  - Atualizar Quantidade de Cubo de Freio, Um DTO específico chamado AtualizarServicoDTO, que isola a propriedade que queremos alterar.
 
